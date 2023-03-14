@@ -1,8 +1,9 @@
+import Login from './components/Login';
 function App(){
   return(
     <div>
       <h2>Olá Mundo!</h2>
-      <p>Visivel</p>
+      <Login></Login>
     </div>
   );
 }
