@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.welcome {
+    width: 273px;
+    height: 75px;
+    left: 296px;
+    top: 94px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    color: #E0E0E0;
+}
+
+.img-fundo {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -5.67%;
+    background-image: url("../imagens/logo_1.svg");
+}

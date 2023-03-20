@@ -1,6 +1,13 @@
+import './login.css';
+
 function Login(){
     return (
-        <h2>Vem do Login</h2>
+        <div className='containnr'>
+            <div className='welcome'>
+                <h1>Welcome</h1>
+            </div>
+            <div className='img-fundo'></div>
+        </div>
     )
 }
 
