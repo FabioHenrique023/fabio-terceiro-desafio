@@ -44,7 +44,7 @@
     position: absolute;
     width: 301px;
     height: 52px;
-    padding-top: 7cm;
+    padding-top: 8cm;
     padding-left: 5.3cm;
     font-family: 'Mulish';
     font-style: normal;
@@ -52,6 +52,60 @@
     font-size: 30px;
     line-height: 20px;
     color: #E0E0E0;
+}
+
+form {
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    padding-top: 9cm;
+    padding-left: 5.3cm;
+}
+
+#icon-user {
+    width: 20px;
+    line-height: 20px;
+    right: 2cm;
+}
+
+input {
+    box-sizing: border-box;
+    width: 20.5em;
+    height: 3rem;
+    left: 285px;
+    top: 547px;
+    background: #26292C;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    margin-bottom: 0.5cm;
+    color: #FFFFFF;
+}
+
+input::placeholder {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E0E0E0;
+    padding-left: 0.5cm;
+}
+
+.btn-submit {
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    width: 7.5cm;
+    height: 3rem;
+    cursor: pointer;
+    margin-top: 1.3cm;
 }
 
 .logo {
