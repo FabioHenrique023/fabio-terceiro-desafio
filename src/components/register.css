@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: inline-block;
+}
+
+.register-welcome {
+    display: inline-flex;
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+    box-shadow: 4px 4px 70px rgba(0, 0, 0, 0.25);
+    width: 50rem;
+    height: 100vh;
+}
+
+.welcome {
+    padding-left: 5cm;
+    padding-top: 1.2cm;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 75px;
+    color: #E0E0E0;
+}
+
+.paragrafo-register {
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    padding-top: 3cm;
+    padding-left: 5.3cm;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E0E0E0;
+}
+
+.login {
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    padding-top: 8cm;
+    padding-left: 5.3cm;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+    color: #E0E0E0;
+}
+
+form {
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    padding-top: 5cm;
+    padding-left: 5.3cm;
+}
+
+.icon-user {
+    width: 20px;
+    right: -20px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 20.5em;
+    height: 3rem;
+    left: 285px;
+    top: 547px;
+    background: #26292C;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    margin-bottom: 0.5cm;
+    color: #FFFFFF;
+}
+
+input::placeholder {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E0E0E0;
+    padding-left: 0.5em;
+}
+
+.btn-submit {
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    width: 7.5cm;
+    height: 3rem;
+    cursor: pointer;
+    margin-top: 1.3cm;
+}
+
+.logo {
+    position: absolute;
+    width: 45.3em;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    left: 40em;
+    top: 0px;
+    background-image: url("../imagens/logo_1.svg");
+} 
+
+#logo-compasso {
+    width: 40vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 0.7cm;
+}
