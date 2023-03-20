@@ -1,15 +1,24 @@
 * {
     padding: 0;
+    margin: 0;
 }
 
 .container {
     display: flex;
 }
 
+.login-welcome {
+    display: inline-flex;
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+    box-shadow: 4px 4px 70px rgba(0, 0, 0, 0.25);
+    width: 50em;
+    height: 100vh;
+}
+
 .welcome {
     width: 273px;
     height: 75px;
-    left: 296px;
+    left: 287px;
     top: 94px;
     font-family: 'Mulish';
     font-style: normal;
@@ -19,11 +28,25 @@
     color: #E0E0E0;
 }
 
-.img-fundo {
+.paragrafo-login {
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    left: 287px;
+    top: 90px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E0E0E0;
+}
+
+/* .img-fundo {
     position: absolute;
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: -5.67%;
     background-image: url("../imagens/logo_1.svg");
-}
+} */

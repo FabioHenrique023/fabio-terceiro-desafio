@@ -2,11 +2,13 @@ import './login.css';
 
 function Login(){
     return (
-        <div className='containnr'>
-            <div className='welcome'>
-                <h1>Welcome</h1>
+        <div className='container'>
+            <div className='login-welcome'>
+                    <h1 className='welcome'>Welcome,</h1>
+                    <p className='paragrafo-login'>
+                    To continue browsing safely, log in to the network.
+                    </p> 
             </div>
-            <div className='img-fundo'></div>
         </div>
     )
 }
